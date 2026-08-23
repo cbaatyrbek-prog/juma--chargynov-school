@@ -22,3 +22,10 @@
   display: block;
   border-radius: 20px;
 }
+.avatar img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
