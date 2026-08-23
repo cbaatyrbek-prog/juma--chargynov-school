@@ -6,3 +6,8 @@
   display: block;
   border-radius: 12px;
 }
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
