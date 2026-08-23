@@ -2,6 +2,16 @@
 .gallery img {
   width: 100%;
   height: auto;
+  max-height: none;
+  object-fit: contain;
+  display: block;
+  border-radius: 20px;
+}
+
+.gallery > div {
+  width: 100%;
+}  width: 100%;
+  height: auto;
   max-height: 700px;
   object-fit: contain;
   display: block;
