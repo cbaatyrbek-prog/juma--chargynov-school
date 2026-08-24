@@ -76,3 +76,61 @@
   display: inline-block;
   width: auto;
 }
+.hero {
+  display: grid;
+  grid-template-columns: 42% 58%;
+  align-items: stretch;
+}
+
+.hero .hero-content {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 55px 45px !important;
+}
+
+.hero > img {
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+  max-height: 680px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+.hero .eyebrow,
+.hero h1,
+.hero p {
+  margin-left: 0 !important;
+  transform: none !important;
+}
+
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.hero .button {
+  display: inline-block;
+  width: auto !important;
+  align-self: flex-start;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero .hero-content {
+    padding: 35px 24px !important;
+  }
+
+  .hero > img {
+    height: auto;
+    min-height: 0;
+  }
+}
