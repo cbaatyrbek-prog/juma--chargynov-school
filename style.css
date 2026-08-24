@@ -36,5 +36,25 @@
   object-fit: cover !important;
   border-radius: 50% !important;
   display: block !important;
-  margin: 0 auto !important;
+  margin: 0 auto !important;  
 }
+.hero-content {
+  display: grid;
+  grid-template-columns: 36% 64%;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-content img {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.1;
+}
+
