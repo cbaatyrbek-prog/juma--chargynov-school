@@ -40,21 +40,39 @@
 }
 .hero-content {
   display: grid;
-  grid-template-columns: 36% 64%;
+  grid-template-columns: 42% 58%;
   align-items: center;
   gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.hero-content > div {
+  min-width: 0;
 }
 
 .hero-content img {
   width: 100%;
   height: auto;
-  max-height: 600px;
+  max-height: 620px;
   object-fit: cover;
   border-radius: 20px;
 }
 
 .hero h1 {
-  font-size: 48px;
-  line-height: 1.1;
+  font-size: 44px;
+  line-height: 1.12;
+  margin: 20px 0;
 }
 
+.hero .eyebrow,
+.hero p,
+.hero .button {
+  max-width: 100%;
+}
+
+.hero .button {
+  display: inline-block;
+  width: auto;
+}
