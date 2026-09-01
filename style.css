@@ -173,3 +173,26 @@
   padding-left: 0 !important;
   align-self: flex-start !important;
 }
+.history-layout {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+.history-photo img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+@media (max-width: 768px) {
+  .history-layout {
+    flex-direction: column;
+  }
+
+  .history-photo img {
+    width: 100%;
+  }
+}
+}
+.history-text {
+  flex: 1;
+}
