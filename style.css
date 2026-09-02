@@ -198,3 +198,20 @@
 .history-text {
   flex: 1;
 }
+.history-layout {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.history-photo img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.history-text {
+  flex: 1;
+}
