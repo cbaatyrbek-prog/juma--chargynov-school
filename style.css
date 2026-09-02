@@ -190,19 +190,12 @@
     flex-direction: column;
   }
 
-  .history-photo img {
-    width: 100%;
-  }
-}
+
 
 .history-text {
   flex: 1;
 }
-.history-layout {
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-}
+
 
 .history-photo img {
   width: 300px;
