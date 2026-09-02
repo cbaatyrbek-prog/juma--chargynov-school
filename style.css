@@ -183,6 +183,8 @@
   max-width: 100%;
   height: auto;
   border-radius: 12px;
+  </>
+}
 @media (max-width: 768px) {
   .history-layout {
     flex-direction: column;
